@@ -38,3 +38,12 @@
     font-weight: 500;
     margin-left: 25px;
 }
+/* home section styling */
+.section .home #home {
+    display: flex;
+    background-image: url(/); 
+    height: 100vh;
+    color: white;
+    min-height: 500px;
+    
+}
