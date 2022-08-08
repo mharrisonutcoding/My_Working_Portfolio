@@ -38,22 +38,21 @@
     color: white;
     font-size: 18px;
     font-weight: 500;
-    margin-left: 20px;
+    margin-left: 25px;
     transition: color 0.7s ease;
 }
 /*hover list highlight action */
 .navbar .menu li a:hover {
     color: rgb(255, 183, 0);
-
 }
 /* home section styling */
-/* added background for home section  */
+
 .home {
     display: flex;
     background: url(./PortfolioHero.jpg) no-repeat center;
     height: 100vh;
     color: #fff;
-    min-height: 500px;
+    min-height: 600px;
     font-family: 'Ubuntu', sans-serif;
 }
 .home .max-width {
