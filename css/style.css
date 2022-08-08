@@ -7,7 +7,7 @@
 }
 .max-width {
     max-width: 1300px;
-    padding: 0 80px;
+    padding: 0 20px;
     margin: auto;
 }
 /* nav bar styling */
@@ -15,7 +15,6 @@
     position: fixed;
     width: 100%;
     padding: 20px 0;
-    background: rgb(194, 180, 28);
     font-family: 'Ubuntu', sans-serif;
 }
 .navbar .max-width {
@@ -28,6 +27,9 @@
     font-size: 40px;
     font-weight: 600;
 }
+.navbar .logo a span {
+    color: rgb(255, 183, 0);
+}
 .navbar .menu li {
     list-style: none;
     display: inline-block;
@@ -36,11 +38,41 @@
     color: white;
     font-size: 18px;
     font-weight: 500;
-    margin-left: 25px;
+    margin-left: 20px;
+    transition: color 0.7s ease;
+}
+/*hover list highlight action */
+.navbar .menu li a:hover {
+    color: rgb(255, 183, 0);
+
 }
 /* home section styling */
-.section .home #banner {
+/* added background for home section  */
+.home {
     display: flex;
-    background: url(./PortfolioHero.jpg) 
+    background: url(./PortfolioHero.jpg) no-repeat center;
     height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.home .max-width {
+    margin: auto 0 auto 40px;
+}
+.home .home-text .text-1 {
+    font-size: 25px;
+}
+.home .home-text .text-2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: -4px;
+}
+.home .home-text .text-3 {
+    font-size: 35px;
+    margin: 5px 0;
+
+}
+.home .home-text .text-3 span {
+    color: rgb(255, 183, 0);
+    font-weight: 600;
 }
