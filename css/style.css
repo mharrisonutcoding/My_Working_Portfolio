@@ -39,11 +39,8 @@
     margin-left: 25px;
 }
 /* home section styling */
-.section .home #home {
+.section .home #banner {
     display: flex;
-    background-image: url(/); 
+    background: url(./PortfolioHero.jpg) 
     height: 100vh;
-    color: white;
-    min-height: 500px;
-    
 }
